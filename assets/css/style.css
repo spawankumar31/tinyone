@@ -1,0 +1,130 @@
+body{
+
+font-family: 'Roboto', sans-serif;
+}
+
+/* ========================
+     heroimg section css
+===========================*/
+  .heroImg{
+  background-color: #fcdb00;
+  padding: 60px 0 110px 0;
+
+  } 
+  .navbar{
+    list-style: none;
+
+  }
+.navbar li{
+  display: inline-block;
+  min-width: 118px;
+  
+}
+.navbar li:not(:last-child){
+  margin-right: 15px !important;
+}
+.navbar a{
+  font-weight: bold;
+  font-size: 22px;
+  color: #010101;
+  padding: 0 18px;
+  display: inline-block;
+  text-transform: capitalize;
+    
+}
+.inspire{
+  margin-top: 70px;
+}
+.iconlist{
+  list-style: none;
+}
+.iconlist li{
+  display: inline-block;
+  margin-right: 40px;
+
+}
+.iconlist a{
+  font-size: 40px;
+  color: #010101;
+}
+.navbar a:hover,.navbar:focus,.navbar:active{
+  font-weight: lighter;
+
+}
+.Tab{
+  margin-left: 18px;
+}
+/* ==================features section==================== */
+.features{
+  padding: 120px 0 80px 0;
+}
+.thumbnail {
+  margin-bottom: 90px;
+}
+.thumbicon i{
+  font-size: 44px;
+}
+
+.thumbcontent h3{
+  font-size: 22px;
+  color: #010101;
+  margin-bottom: 15px;
+}
+.thumbcontent p{
+  color: #898989;
+
+}
+
+/* ================== intouch section==================== */
+.intouch{
+  background-color: #010101 ;
+  padding: 94px 0 140px 0;
+}
+.from-control{
+  padding: 20px 25px;
+  height: 50px;
+  border-radius: 5px;
+  width: calc(100% - 150px);
+}
+.from-control::placeholder{
+  color: #898989;
+  font-size: 16px;
+}
+.btn-primary{
+  background-color: #fcdb00;
+  height: 50px;
+  padding: 15px 35px;
+  cursor: pointer;
+  border-radius: 5px ;
+  width: 125px;
+  margin-left: 20px ;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.form-group{
+  margin-bottom: 80px;
+}
+.socialIcon li{
+  display: inline-block;
+  margin-right: 30px;
+  
+}
+.socialIcon li a{
+  color: #fcdb00;
+  
+}
+.socialIcon li i{
+
+  font-size: 38px;
+}
+
+.footerlist{
+  list-style: none;
+
+}
+.footerlist li,.footerlist li a{
+  color: #ffff;
+  
+  font-size: 16px;
+}
